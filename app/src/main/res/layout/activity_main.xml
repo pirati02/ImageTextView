@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ge.dev.baqari.imagetextview.MainActivity">
+
+    <ge.dev.baqari.imagetextview.ImageTextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        app:text="Zazaaaa"
+        app:textColor="#ff0000"
+        app:textVerticalGravity="bottom"
+        app:textHorizontalGravity="right"
+        app:textSize="40sp" />
+
+</FrameLayout>
